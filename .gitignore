@@ -6,3 +6,4 @@ datos/
 .coverage
 htmlcov/
 reportes/
+.idea/

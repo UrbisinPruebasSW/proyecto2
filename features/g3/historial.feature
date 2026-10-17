@@ -67,7 +67,7 @@ Feature: Historial de movimientos y categorías
 
   @HU-G3-01 @api
   Scenario Outline: Filtro por tipo de movimiento
-    Given que tengo una transferencia enviada, una recibida, una recarga y un pago de servicio hoy
+    Given que tengo una transferencia enviada, una recibida, una recarga y un pago de servicio ayer
     When consulto mi historial con el tipo "<tipo>"
     Then todos los movimientos devueltos son de tipo "<tipo>"
     And el total de movimientos es 1
